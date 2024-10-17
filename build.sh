@@ -1,8 +1,8 @@
 #!/bin/bash
 
-export PATH=/home/martin/android/prebuilts/clang/host/linux-x86/clang-r498229b/bin:$PATH
-export CROSS_COMPILE=/home/martin/android/prebuilts/clang/host/linux-x86/clang-r498229b/bin/aarch64-linux-gnu-
-export CC=/home/martin/android/prebuilts/clang/host/linux-x86/clang-r498229b/bin/clang
+export PATH=/home/itachi/toolchain/clang/host/linux-x86/clang-r383902/bin:$PATH
+export CROSS_COMPILE=/home/itachi/toolchain/clang/host/linux-x86/clang-r383902/bin/aarch64-linux-gnu-
+export CC=/home/itachi/toolchain/clang/host/linux-x86/clang-r383902/binclang
 export CLANG_TRIPLE=aarch64-linux-gnu-
 export ARCH=arm64
 export ANDROID_MAJOR_VERSION=r
